@@ -1,24 +1,17 @@
 {
-  "name": "wrapper",
+  "name": "red",
   "version": "1.0.0",
-  "description": "www",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Artanty/test1.git"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Artyom",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Artanty/test1/issues"
-  },
-  "homepage": "https://github.com/Artanty/test1#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "http-proxy": "^1.18.1"
   }
 }
