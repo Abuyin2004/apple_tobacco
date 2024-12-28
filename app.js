@@ -149,6 +149,7 @@ let lastExecutedMinute = null; // : number | null
 
 //(req: Request, res: Response) => {
 app.get('/get-updates', async (req, res) => {
+  console.log('/get-updates triggered')
   const clientIP = req.ip;
 
   // Parse URL parameters
